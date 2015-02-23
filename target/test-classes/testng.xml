@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<!--<suite name="Suite1" verbose="5" >
+    <test name="Numbers" >
+        <classes>
+            <class name="org.seleniumqa.lesson1.SimpleNumber" />
+        </classes>
+    </test>
+</suite>-->
+<suite name="Main">
+    <suite-files>
+        <suite-file path="numbers.xml"></suite-file>
+        <suite-file path="word.xml"></suite-file>
+    </suite-files>
+</suite>
+
+
+

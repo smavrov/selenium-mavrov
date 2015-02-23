@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main" duration-ms="0" started-at="2015-02-11T19:11:06Z" finished-at="2015-02-11T19:11:06Z">
+    <groups>
+    </groups>
+  </suite> <!-- Main -->
+  <suite name="Suite1" duration-ms="43" started-at="2015-02-11T19:11:06Z" finished-at="2015-02-11T19:11:06Z">
+    <groups>
+    </groups>
+    <test name="Numbers" duration-ms="43" started-at="2015-02-11T19:11:06Z" finished-at="2015-02-11T19:11:06Z">
+      <class name="org.seleniumqa.lesson1.SimpleNumber">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumqa.lesson1.SimpleNumber@66048bfd]" name="setUp" is-config="true" duration-ms="19" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isPrimeTest()[pri:0, instance:org.seleniumqa.lesson1.SimpleNumber@66048bfd]" name="isPrimeTest" duration-ms="4" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPrimeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumqa.lesson1.SimpleNumber@66048bfd]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.seleniumqa.lesson1.SimpleNumber -->
+    </test> <!-- Numbers -->
+  </suite> <!-- Suite1 -->
+  <suite name="Suite2" duration-ms="1" started-at="2015-02-11T19:11:06Z" finished-at="2015-02-11T19:11:06Z">
+    <groups>
+    </groups>
+    <test name="Vowels" duration-ms="1" started-at="2015-02-11T19:11:06Z" finished-at="2015-02-11T19:11:06Z">
+      <class name="org.seleniumqa.lesson2.VowelNumber">
+        <test-method status="PASS" signature="setTestEnv()[pri:0, instance:org.seleniumqa.lesson2.VowelNumber@19bb089b]" name="setTestEnv" is-config="true" duration-ms="0" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestEnv -->
+        <test-method status="PASS" signature="vowelCountTest()[pri:0, instance:org.seleniumqa.lesson2.VowelNumber@19bb089b]" name="vowelCountTest" duration-ms="1" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vowelCountTest -->
+        <test-method status="PASS" signature="resetTestEnv()[pri:0, instance:org.seleniumqa.lesson2.VowelNumber@19bb089b]" name="resetTestEnv" is-config="true" duration-ms="0" started-at="2015-02-11T21:11:06Z" finished-at="2015-02-11T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTestEnv -->
+      </class> <!-- org.seleniumqa.lesson2.VowelNumber -->
+    </test> <!-- Vowels -->
+  </suite> <!-- Suite2 -->
+</testng-results>

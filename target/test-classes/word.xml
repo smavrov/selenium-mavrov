@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Suite2" verbose="5" >
+    <test name="Vowels" >
+        <classes>
+            <class name="org.seleniumqa.lesson2.VowelNumber" />
+        </classes>
+    </test>
+</suite>
