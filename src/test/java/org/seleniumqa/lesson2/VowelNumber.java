@@ -33,6 +33,16 @@ public class VowelNumber {
         assertEquals(vowelCount(testWord), count);
     }
 
+    @BeforeMethod
+    public void initTest() {
+        testWord = "HelLo";
+        count = 2;
+    }
+    @Test
+    public void vowelCountTest2() {
+        assertTrue(vowelCount(testWord) == count);
+    }
+
     @AfterTest
     public void resetTestEnv() {
         testWord = "";
