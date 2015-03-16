@@ -28,7 +28,7 @@ public class GoogleSearchTest {
     public void searchTest() {
         WebElement searchField = driver.findElement(By.id("lst-ib"));
         searchField.sendKeys("Selenium");
-        WebElement seleniumLink = driver.findElement(By.xpath(".//*[@id='rso']/div/li[1]/div/h3/a"));
+        WebElement seleniumLink = driver.findElement(By.xpath("//*[@id='rso']/div/li[1]/div/h3/a"));
 
         Assert.assertEquals(seleniumLink.getText().toString().contains("Selenium"), true);
     }

@@ -44,7 +44,6 @@ public class StylusSearchTest {
         builder.sendKeys("Sony");
         builder.sendKeys(Keys.ENTER);
         builder.perform();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //builder.moveToElement(driver.findElement(By.name("button")));
 
@@ -52,6 +51,11 @@ public class StylusSearchTest {
 
     @AfterClass
     public void testDown() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+
+        }
         driver.quit();
     }
 }
